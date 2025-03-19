@@ -11,5 +11,6 @@
       "x": "sUymCqtOQsLaCFi8ahMBUlK9EjRwcShm6-ywCYsuYc0"
     }
   }],
-  "authentication": ["did:key:z6MkrPMzk84WNvG3uh2ETrBuNYBAPKC7YRy7vsMLuyzdTM5e#z6MkrPMzk84WNvG3uh2ETrBuNYBAPKC7YRy7vsMLuyzdTM5e"]
+  "authentication": ["did:key:z6MkrPMzk84WNvG3uh2ETrBuNYBAPKC7YRy7vsMLuyzdTM5e#z6MkrPMzk84WNvG3uh2ETrBuNYBAPKC7YRy7vsMLuyzdTM5e"],
+  "assertionMethod": ["did:key:z6MkrPMzk84WNvG3uh2ETrBuNYBAPKC7YRy7vsMLuyzdTM5e#z6MkrPMzk84WNvG3uh2ETrBuNYBAPKC7YRy7vsMLuyzdTM5e"]
 }
