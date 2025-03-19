@@ -1,0 +1,15 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main",
+  "verificationMethod": [{
+    "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main#key-1",
+    "type": "Ed25519VerificationKey2020",
+    "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main",
+    "publicKeyJwk": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "bCxAlKuVsB9uZYb7qoKoZ2S_F-Lv-zK--u5yaw1_p1k"
+    }
+  }],
+  "authentication": ["did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main#key-1"]
+}
