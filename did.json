@@ -1,10 +1,10 @@
 {
   "@context": "https://www.w3.org/ns/did/v1",
-  "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main",
+  "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main#key-1",
   "verificationMethod": [{
     "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main#key-1",
     "type": "Ed25519VerificationKey2020",
-    "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main",
+    "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main#key-1",
     "publicKeyJwk": {
       "kty": "OKP",
       "crv": "Ed25519",
