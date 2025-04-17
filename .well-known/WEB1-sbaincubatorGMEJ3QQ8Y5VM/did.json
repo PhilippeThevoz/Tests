@@ -9,7 +9,7 @@
             "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1",
             "type": "Ed25519VerificationKey2020",
             "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM",
-            "publicKeyBase64": "MWG9HOhW1ud/ItvVpgEXHMb6v2B4uptVuHl1pcuVs28="
+            "publicKeyMultibase": "z2Hwm26e9sYHrLNBparZy1vy7RVT7onAVhU3JmKq3hcaR"
         }
     ],
     "authentication": [
@@ -19,9 +19,9 @@
     "referenceUrl": "https://github.com/PhilippeThevoz/Tests/blob/main/DPP/WEB1-sbaincubatorGMEJ3QQ8Y5VM.json",
     "proof": {
         "type": "Ed25519Signature2020",
-        "created": "2025-04-17T14:54:21.379409Z",
+        "created": "2025-04-17T15:03:50.255780Z",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1",
-        "proofValue": "Hc9u5EVBoxt7TwTfLPYVLuHpk55Y24Kjjpd+zpEF8fv4TgnTrl3FH3zM2lGqh0LsZXB5qUSyRYVHD8Sg/Z9ADw=="
+        "proofValue": "BdSmt5wDw/I9jZQueNeO/coHMpcLu1ScPmYqI+w5Wtsy8nIToOCmhzX0WhSMM7C83V70BFTZUUIBys2Cf/fRAQ=="
     }
 }
