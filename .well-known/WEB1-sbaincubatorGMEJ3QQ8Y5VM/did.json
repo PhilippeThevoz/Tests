@@ -9,7 +9,7 @@
             "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1",
             "type": "Ed25519VerificationKey2020",
             "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM",
-            "publicKeyMultibase": "zJ8mitec5sGLiXG7eg2MxfAB535CfgDaRr5HG8bAuF7Xv"
+            "publicKeyMultibase": "XJ8mitec5sGLiXG7eg2MxfAB535CfgDaRr5HG8bAuF7Xv"
         }
     ],
     "authentication": [
