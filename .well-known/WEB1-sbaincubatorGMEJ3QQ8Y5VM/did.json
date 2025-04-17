@@ -9,19 +9,19 @@
             "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1",
             "type": "Ed25519VerificationKey2020",
             "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM",
-            "publicKeyMultibase": "z2Hwm26e9sYHrLNBparZy1vy7RVT7onAVhU3JmKq3hcaR"
+            "publicKeyMultibase": "zJ8mitec5sGLiXG7eg2MxfAB535CfgDaRr5HG8bAuF7Xv"
         }
     ],
     "authentication": [
         "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1"
     ],
-    "sha256": "b35895d1241a68b81fc8c8af88c9f0d4e3c2c4968bdfdb07cc29977ff5ea80bf",
-    "referenceUrl": "https://github.com/PhilippeThevoz/Tests/blob/main/DPP/WEB1-sbaincubatorGMEJ3QQ8Y5VM.json",
+    "sha256": "fde4372a15340fb230fd6c3fa64e68fea21eee2c16a8d8ca8568cd88af5be43e",
+    "referenceUrl": "https://www.sicpa.com",
     "proof": {
         "type": "Ed25519Signature2020",
-        "created": "2025-04-17T15:03:50.255780Z",
+        "created": "2025-04-17T15:08:24.265794Z",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1",
-        "proofValue": "BdSmt5wDw/I9jZQueNeO/coHMpcLu1ScPmYqI+w5Wtsy8nIToOCmhzX0WhSMM7C83V70BFTZUUIBys2Cf/fRAQ=="
+        "proofValue": "rPBs0CV1TLOV6KrQtjXz1aoQG3PJRSix9GzxI+WzArw3uweDPZcXLobpt8A279LrVPYyXZBI/p0o1bW1KDF0Bw=="
     }
 }
