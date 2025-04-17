@@ -17,11 +17,4 @@
     ],
     "sha256": "b35895d1241a68b81fc8c8af88c9f0d4e3c2c4968bdfdb07cc29977ff5ea80bf",
     "referenceUrl": "https://github.com/PhilippeThevoz/Tests/blob/main/DPP/WEB1-sbaincubatorGMEJ3QQ8Y5VM.json",
-    "proof": {
-        "type": "Ed25519Signature2020",
-        "created": "2024-04-17T00:00:00Z",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1",
-        "proofValue": "2s8KXQigT7p4EAgPOhlsozS473IwL8zqabozAhi4wp5hYW3J/bg8vvZts05LomHDOlKyMN2tCZkj5UA5bKrfCg=="
-    }
 }
