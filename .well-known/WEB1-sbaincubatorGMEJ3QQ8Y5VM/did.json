@@ -16,7 +16,7 @@
         "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1"
     ],
     "sha256": "c65216027a09cf4c703808d864eda03ed26b9c0a7c6bba444cdab3702972948d",
-    "referenceUrl": "https://www.sicpa.com",
+    "referenceUrl": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/DPP/WEB1-sbaincubatorGMEJ3QQ8Y5VM.json",
     "proof": {
         "type": "Ed25519Signature2020",
         "created": "2025-04-17T15:08:24.265794Z",
