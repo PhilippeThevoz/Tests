@@ -15,7 +15,7 @@
     "authentication": [
         "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1"
     ],
-    "sha256": "b35895d1241a68b81fc8c8af88c9f0d4e3c2c4968bdfdb07cc29977ff5ea80bf",
+    "sha256": "c65216027a09cf4c703808d864eda03ed26b9c0a7c6bba444cdab3702972948d",
     "referenceUrl": "https://www.sicpa.com",
     "proof": {
         "type": "Ed25519Signature2020",
