@@ -4,24 +4,20 @@
         "https://w3id.org/security/suites/ed25519-2020/v1"
     ],
     "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM",
-    "verificationMethod": [
-        {
-            "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1",
-            "type": "Ed25519VerificationKey2020",
-            "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM",
-            "publicKeyMultibase": "zJ8mitec5sGLiXG7eg2MxfAB535CfgDaRr5HG8bAuF7Xv"
-        }
-    ],
-    "authentication": [
-        "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1"
-    ],
-    "sha256": "**********************c65216027a09cf4c703808d864eda03ed26b9c0a7c6bba444cdab3702972948d",
+    "sha256": "d1b1d131d2671142f5c5e30ae5363ce378236a2a779a8a9240db9d455b87932d",
     "referenceUrl": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/DPP/WEB1-sbaincubatorGMEJ3QQ8Y5VM.json",
+    "verificationMethod": {
+        "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1",
+        "type": "Ed25519VerificationKey2020",
+        "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM",
+        "publicKeyMultibase": "z8xvmMNdXKtqosaoE13sT2Q1uxU86eaodWTiYQPSogwKy"
+    },
+    "authentication": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1",
     "proof": {
         "type": "Ed25519Signature2020",
-        "created": "2025-04-17T15:08:24.265794Z",
+        "created": "2025-04-25T13:08:20.418109+00:00Z",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:WEB1-sbaincubatorGMEJ3QQ8Y5VM#key-1",
-        "proofValue": "rPBs0CV1TLOV6KrQtjXz1aoQG3PJRSix9GzxI+WzArw3uweDPZcXLobpt8A279LrVPYyXZBI/p0o1bW1KDF0Bw=="
+        "proofValue": "3tnqryOOfZ0adbjf+7fx6vltXoCQnoko77Fi314eDofs8flAEfIztGvWGC0VavuH5TiUbtQ4oFBD3L+/CD17DQ=="
     }
 }
