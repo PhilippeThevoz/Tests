@@ -134,5 +134,115 @@
                 ]
             }
         }
+    },
+    {
+        "DA Record": {
+            "DA Record Summary": {
+                "RecordID": "GLVO4G95VCHN",
+                "EntityID": "E01",
+                "UserID": "U01",
+                "DPP-Record-ID": "urn:uuid:550e8400-e29b-41d4-a716-111111111111",
+                "DPP-Record-Hash": "b8dfec39d0114452580294e8e5cd8ff45beb47fdce890ee2c731cd659c77de36",
+                "Object Description": "Documents Certification",
+                "Amount": "0",
+                "Unit Code": "KGM",
+                "Selected Event": "DeliveryEvent",
+                "Event_choice_value": "-1"
+            },
+            "processRun": {},
+            "DID": "did:key:z6Mlwzqo9icGggHub7qg_FVRgTESuEvvlzZD7TAj3BmLvg",
+            "DID_Key": {
+                "kty": "OKP",
+                "crv": "Ed25519",
+                "x": "lwzqo9icGggHub7qg_FVRgTESuEvvlzZD7TAj3BmLvg",
+                "d": "-dOx0hH4AMVLAv5ist3osko99gTgfw6T3EIX8N8d69c"
+            },
+            "Signed Credential": {
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    {
+                        "description": "https://schema.org/description",
+                        "name": "https://schema.org/name",
+                        "addressCountry": "https://schema.org/addressCountry",
+                        "manufacturer": {
+                            "@id": "https://schema.org/manufacturer",
+                            "@type": "https://schema.org/Organization"
+                        },
+                        "@vocab": "https://example.org/vocab#",
+                        "manufacturingDate": "https://schema.org/productionDate",
+                        "serialNumber": "https://schema.org/serialNumber",
+                        "holder": "https://schema.org/owner"
+                    }
+                ],
+                "id": "urn:uuid:550e8400-e29b-41d4-a716-111111111111",
+                "type": [
+                    "VerifiableCredential",
+                    "ProductCredential"
+                ],
+                "credentialSubject": {
+                    "id": "urn:uuid:123e4567-e89b-12d3-a456-000000000000",
+                    "traceabilityInformation": [
+                        {
+                            "traceabilityEvent": "CertificationEvent",
+                            "traceabilityEventActor": "E01",
+                            "traceabilityEventDate": "2025-04-30T12:09:13.337565"
+                        },
+                        {
+                            "traceabilityEvent": "DeliveryEvent",
+                            "traceabilityEventActor": "E01",
+                            "traceabilityEventDate": "2025-04-30T12:10:03.439273"
+                        }
+                    ],
+                    "manufacturingDate": "2025-04-30T10:21:42.197188",
+                    "holder": "did:key:z6Mxvo3jZXgp-yfyf181lJs-uBs238iR2RYlzW--O3eTio",
+                    "description": "Documents Certification",
+                    "product_characteristics": {
+                        "Comments": "Test avec Christophe",
+                        "Document Hash (SHA256)": " 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+                        "Document Name": " Dooooc 2",
+                        "Document Owner": " PHT",
+                        "Document URL": " C:\\Users\\phili\\OneDrive\\Philippe-Priv\u00e9\\LLM-Programming\\GreenTrust\\DocumentsCertification\\Doc2"
+                    },
+                    "mass": {
+                        "unitCode": "KGM",
+                        "value": "0"
+                    },
+                    "serialNumber": "SN-CJZ40CZ4-094"
+                },
+                "issuer": "did:key:z6MktbVveu1FnLFtEXA3rnSNeTDUge5tWfSLyNgExzt5taU7",
+                "issuanceDate": "2024-03-14T04:00:00Z",
+                "proof": {
+                    "type": "Ed25519Signature2018",
+                    "proofPurpose": "assertionMethod",
+                    "verificationMethod": "did:key:z6MktbVveu1FnLFtEXA3rnSNeTDUge5tWfSLyNgExzt5taU7#z6MktbVveu1FnLFtEXA3rnSNeTDUge5tWfSLyNgExzt5taU7",
+                    "created": "2025-04-30T12:10:05.031331200Z",
+                    "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..o1bYcP8VJK36kOOj9BFJeMDZm6CM5EqnMyPVQx3C1FO1RfIYBSQSsKg4wc3IWQ6AzoPZ9nc2r7RSH28tQsWfBQ"
+                },
+                "selectedEvent": "DeliveryEvent",
+                "linkedCredential": [
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/02A_EntityA-Credential-Signed.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "CompanyCredential"
+                        ]
+                    },
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/RootCA-Credential.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "RootCertificationAuthorityCredential"
+                        ]
+                    },
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/CA-Credential.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "CertificationAuthorityCredential"
+                        ]
+                    }
+                ]
+            }
+        }
     }
 ]
