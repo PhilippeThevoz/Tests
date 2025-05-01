@@ -4,20 +4,20 @@
         "https://w3id.org/security/suites/ed25519-2020/v1"
     ],
     "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:CREATE25-ID not found",
-    "sha256": "00b4e48c7614e1d98a3d39f2389c63b5bfad0ad844f19096371697bf031717f9",
-    "referenceUrl": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/DPP/CREATE25-ID not found/Z0001-Log.json",
+    "sha256": "c2e18b5e587963e1bef21da2ba0f474a61eac033f069817c0e34c859fc14b4df",
+    "referenceUrl": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/DPP/CREATE25-ID not found/X000-Log.json",
     "verificationMethod": {
         "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:CREATE25-ID not found#key-1",
         "type": "Ed25519VerificationKey2020",
         "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:CREATE25-ID not found",
-        "publicKeyMultibase": "z8DHhWyrgY8YRvaDanYm5UeKtteSRRjaB3EhkZfTiTeoH"
+        "publicKeyMultibase": "zFqopydo7LCHMXRoiHS84Y6KqZNfML7Duj78sp9ZmcgNG"
     },
     "authentication": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:CREATE25-ID not found#key-1",
     "proof": {
         "type": "Ed25519Signature2020",
-        "created": "2025-05-01T11:02:56.422147+00:00Z",
+        "created": "2025-05-01T14:47:59.705861+00:00Z",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:CREATE25-ID not found#key-1",
-        "proofValue": "xPrnqpwWGGa98cIKnUx30my+g0d4Fh8xGOIhvfDNWn3e38kF3KP7aXUXCsD63IbJzS6+Vk9eY+jGVVsIdjrcCg=="
+        "proofValue": "ej+TQ2IVfqyIwhaVMYXDcZWz2ffvb7VKuYR+5kmwVjEYU9clbJBfnD6OHwbo9U3uZQW4wyxe4tWyJfrwFrv4CA=="
     }
 }
