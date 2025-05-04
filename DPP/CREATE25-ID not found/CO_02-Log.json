@@ -1,0 +1,224 @@
+[
+    {
+        "DA Record": {
+            "DA Record Summary": {
+                "RecordID": "0K4KD898JC95",
+                "EntityID": "E101",
+                "UserID": "U11",
+                "DPP-Record-ID": "urn:uuid:550e8400-e29b-41d4-a716-111111111111",
+                "DPP-Record-Hash": "36c4a437d98ef2ebb7f0335f13d9892503d0b34426b59a389437d4948b7e7003",
+                "Object Description": "CO_01 / Cobalt Ore ",
+                "Amount": "3.56",
+                "Unit Code": "TONS",
+                "Selected Event": "Extraction",
+                "Event_choice_value": "1"
+            },
+            "processRun": {},
+            "DID": "did:key:z6M3jMKujaBZe6b4sgzKYHWFlvp0-056bzPKRn_j1OXwvY",
+            "DID_Key": {
+                "kty": "OKP",
+                "crv": "Ed25519",
+                "x": "3jMKujaBZe6b4sgzKYHWFlvp0-056bzPKRn_j1OXwvY",
+                "d": "7t3hDQADXKK_8KkB7N19TkuOWutYgIJFOfFFxPvbxQM"
+            },
+            "Signed Credential": {
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    {
+                        "manufacturer": {
+                            "@id": "https://schema.org/manufacturer",
+                            "@type": "https://schema.org/Organization"
+                        },
+                        "serialNumber": "https://schema.org/serialNumber",
+                        "@vocab": "https://example.org/vocab#",
+                        "name": "https://schema.org/name",
+                        "addressCountry": "https://schema.org/addressCountry",
+                        "holder": "https://schema.org/owner",
+                        "manufacturingDate": "https://schema.org/productionDate",
+                        "description": "https://schema.org/description"
+                    }
+                ],
+                "id": "urn:uuid:550e8400-e29b-41d4-a716-111111111111",
+                "type": [
+                    "VerifiableCredential",
+                    "ProductCredential"
+                ],
+                "credentialSubject": {
+                    "id": "urn:uuid:123e4567-e89b-12d3-a456-000000000000",
+                    "mass": {
+                        "unitCode": "TONS",
+                        "value": "3.56"
+                    },
+                    "description": "CO_01 / Cobalt Ore ",
+                    "manufacturingDate": "2025-05-04T17:27:48.887035",
+                    "holder": "did:key:z6M3jMKujaBZe6b4sgzKYHWFlvp0-056bzPKRn_j1OXwvY",
+                    "product_characteristics": {
+                        "1. Chemical_composition": "Co 4.52 %",
+                        "2. Trace_elements": "Bi xx ppm  Nb xx ppm Ta xx ppm",
+                        "3. Fingerprint": " ",
+                        "4. Field 1": " ",
+                        "5. Field 2": " ",
+                        "6. Comments": " "
+                    },
+                    "manufacturer": {
+                        "addressCountry": "Utopia",
+                        "name": "E101"
+                    },
+                    "serialNumber": "SN-RD2US6JJ-079",
+                    "name": "Minerals",
+                    "traceabilityInformation": [
+                        {
+                            "traceabilityEvent": "Extraction",
+                            "traceabilityEventActor": "E101",
+                            "traceabilityEventDate": "2025-05-04T17:27:48.886969"
+                        }
+                    ]
+                },
+                "issuer": "did:key:z6Mkkiww5TS25KkutJJaxVDXM1FyJhUsfcCqHenaCyrmLts9",
+                "issuanceDate": "2024-03-14T04:00:00Z",
+                "proof": {
+                    "type": "Ed25519Signature2018",
+                    "proofPurpose": "assertionMethod",
+                    "verificationMethod": "did:key:z6Mkkiww5TS25KkutJJaxVDXM1FyJhUsfcCqHenaCyrmLts9#z6Mkkiww5TS25KkutJJaxVDXM1FyJhUsfcCqHenaCyrmLts9",
+                    "created": "2025-05-04T17:27:50.858135700Z",
+                    "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..2RbYAVwLzgBpZeV_RqPI65y3xAnWHg2ylnVJH5k0OlMZQnx4sXLqBdrNz4djNOGfmkrLqc5YnYwDZrAmFkk-AQ"
+                },
+                "selectedEvent": "Extraction",
+                "linkedCredential": [
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/02A_EntityA-Credential-Signed.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "CompanyCredential"
+                        ]
+                    },
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/RootCA-Credential.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "RootCertificationAuthorityCredential"
+                        ]
+                    },
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/CA-Credential.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "CertificationAuthorityCredential"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "DA Record": {
+            "DA Record Summary": {
+                "RecordID": "C8OZSIAW6F3W",
+                "EntityID": "E101",
+                "UserID": "U11",
+                "DPP-Record-ID": "urn:uuid:550e8400-e29b-41d4-a716-111111111111",
+                "DPP-Record-Hash": "4b3c55a99102b10d564b809f3a1a02b7c7104ef204312ebdad4b87e4ad466cd8",
+                "Object Description": "CO_02 / Cobalt Ore",
+                "Amount": "4.77",
+                "Unit Code": "TONS",
+                "Selected Event": "Extraction",
+                "Event_choice_value": "1"
+            },
+            "processRun": {},
+            "DID": "did:key:z6M5d46uroCXUW_khzDj8AL03wommtL5JcoiIKkhzaA7tY",
+            "DID_Key": {
+                "kty": "OKP",
+                "crv": "Ed25519",
+                "x": "5d46uroCXUW_khzDj8AL03wommtL5JcoiIKkhzaA7tY",
+                "d": "64t-auSo3130kRtX_O8hynTOY4xOFtRxGbswJapdGJk"
+            },
+            "Signed Credential": {
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    {
+                        "@vocab": "https://example.org/vocab#",
+                        "addressCountry": "https://schema.org/addressCountry",
+                        "manufacturer": {
+                            "@id": "https://schema.org/manufacturer",
+                            "@type": "https://schema.org/Organization"
+                        },
+                        "description": "https://schema.org/description",
+                        "manufacturingDate": "https://schema.org/productionDate",
+                        "serialNumber": "https://schema.org/serialNumber",
+                        "holder": "https://schema.org/owner",
+                        "name": "https://schema.org/name"
+                    }
+                ],
+                "id": "urn:uuid:550e8400-e29b-41d4-a716-111111111111",
+                "type": [
+                    "VerifiableCredential",
+                    "ProductCredential"
+                ],
+                "credentialSubject": {
+                    "id": "urn:uuid:123e4567-e89b-12d3-a456-000000000000",
+                    "manufacturer": {
+                        "addressCountry": "Utopia",
+                        "name": "E101"
+                    },
+                    "holder": "did:key:z6M5d46uroCXUW_khzDj8AL03wommtL5JcoiIKkhzaA7tY",
+                    "mass": {
+                        "unitCode": "TONS",
+                        "value": "4.77"
+                    },
+                    "traceabilityInformation": [
+                        {
+                            "traceabilityEvent": "Extraction",
+                            "traceabilityEventActor": "E101",
+                            "traceabilityEventDate": "2025-05-04T17:29:05.416296"
+                        }
+                    ],
+                    "name": "Minerals",
+                    "manufacturingDate": "2025-05-04T17:29:05.416313",
+                    "description": "CO_02 / Cobalt Ore",
+                    "serialNumber": "SN-QM9LPRMR-130",
+                    "product_characteristics": {
+                        "1. Chemical_composition": "Co 6.42 %",
+                        "2. Trace_elements": "Bi xx ppm  Nb xx ppm Ta xx ppm",
+                        "3. Fingerprint": " ",
+                        "4. Field 1": " ",
+                        "5. Field 2": " ",
+                        "6. Comments": " "
+                    }
+                },
+                "issuer": "did:key:z6Mkkiww5TS25KkutJJaxVDXM1FyJhUsfcCqHenaCyrmLts9",
+                "issuanceDate": "2024-03-14T04:00:00Z",
+                "proof": {
+                    "type": "Ed25519Signature2018",
+                    "proofPurpose": "assertionMethod",
+                    "verificationMethod": "did:key:z6Mkkiww5TS25KkutJJaxVDXM1FyJhUsfcCqHenaCyrmLts9#z6Mkkiww5TS25KkutJJaxVDXM1FyJhUsfcCqHenaCyrmLts9",
+                    "created": "2025-05-04T17:29:05.556925200Z",
+                    "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..6I-CmyBSM2dGnOt9whuMp7W_-uhi5rWxtxIyAZMYS-eRViri8StLnCtXH59uRtRZl099FpBwwYDzCIsdeM5kDA"
+                },
+                "selectedEvent": "Extraction",
+                "linkedCredential": [
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/02A_EntityA-Credential-Signed.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "CompanyCredential"
+                        ]
+                    },
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/RootCA-Credential.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "RootCertificationAuthorityCredential"
+                        ]
+                    },
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/CA-Credential.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "CertificationAuthorityCredential"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+]
