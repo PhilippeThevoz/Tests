@@ -1,0 +1,23 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:T770A-sbaincubatorGMEJ3QQ3R81M",
+    "sha256": "05e2a7afac8d00a2a0b57828067de3dfb4e6f06339184fc157d01afe753ea273",
+    "referenceUrl": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/DPP/T770A-sbaincubatorGMEJ3QQ3R81M/T770A-Log.json",
+    "verificationMethod": {
+        "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:T770A-sbaincubatorGMEJ3QQ3R81M#key-1",
+        "type": "Ed25519VerificationKey2020",
+        "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:T770A-sbaincubatorGMEJ3QQ3R81M",
+        "publicKeyMultibase": "z21sSNEvAuFHq7gojLMdk8KRBbnpG2Ky9aqcDKnGs4UsN"
+    },
+    "authentication": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:T770A-sbaincubatorGMEJ3QQ3R81M#key-1",
+    "proof": {
+        "type": "Ed25519Signature2020",
+        "created": "2025-05-05T15:30:27.387942+00:00Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:T770A-sbaincubatorGMEJ3QQ3R81M#key-1",
+        "proofValue": "rLNTve12pSRte9O3XkT5dArsZ+dyyz5aor7uEzTjyaBHyK8EaZZI2MbqlsUP3dB9lh+a4nrSf3aHueeBeQJPBg=="
+    }
+}
