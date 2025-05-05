@@ -4,20 +4,20 @@
         "https://w3id.org/security/suites/ed25519-2020/v1"
     ],
     "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:Cotton22-sbaincubatorGMEJ3QM0863M",
-    "sha256": "3d16dad2eab2a5fd7d9a6b4e458db1e5e8e1abb0ec8d77da91a447ba72769e14",
+    "sha256": "530001d15b063ee16a5f81bb76d311a011e5b2f602434db4ca39d716f1922545",
     "referenceUrl": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/DPP/Cotton22-sbaincubatorGMEJ3QM0863M/Cotton22-Log.json",
     "verificationMethod": {
         "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:Cotton22-sbaincubatorGMEJ3QM0863M#key-1",
         "type": "Ed25519VerificationKey2020",
         "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:Cotton22-sbaincubatorGMEJ3QM0863M",
-        "publicKeyMultibase": "z6V8baTiR7gZe55yCYRKKCRhY879yApe9wXxYQnF8bUFz"
+        "publicKeyMultibase": "zAtW7krKv37nD6NyPdau2cUCPTsEYa65JbXiYHPxubnV8"
     },
     "authentication": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:Cotton22-sbaincubatorGMEJ3QM0863M#key-1",
     "proof": {
         "type": "Ed25519Signature2020",
-        "created": "2025-05-05T08:13:43.252226+00:00Z",
+        "created": "2025-05-05T08:28:05.722787+00:00Z",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:Cotton22-sbaincubatorGMEJ3QM0863M#key-1",
-        "proofValue": "6R1+rYVIayvKQHILMPmmGKnKIX+K/R8bB+afBZqs+GSDk0oyvBzNXxTKbg3olN3SY+NJdxSUciEMn4WRwmFfDw=="
+        "proofValue": "QDtDCytD1qMH79nTpSx1hqERfFToemETtUaxBC0/W5lWM2RTzlaTKrPU4fNCReSt6K97/Zt86Qyg43Ps2uDjBQ=="
     }
 }
