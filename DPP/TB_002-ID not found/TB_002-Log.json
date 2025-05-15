@@ -1,0 +1,123 @@
+[
+    {
+        "error": "500 Server Error:  for url: https://pi-piwb-p-i.paas-pp.sicpa.io/api/v1/process-runs"
+    },
+    {
+        "DA Record": {
+            "DA Record Summary": {
+                "RecordID": "FGA14X7MVN9Q",
+                "EntityID": "PP2",
+                "UserID": "U12",
+                "ObjectID": "TB_002",
+                "ObjectProcessID": "ID not found",
+                "Object Description": "TB_002 - SX Blade - Hot Ring",
+                "Amount": "1",
+                "Unit Code": "ITEM",
+                "TransactionDate": "2025-05-15T09:24:51.259024",
+                "Selected Event": "Manufacturing",
+                "Event_choice_value": "1",
+                "DPP-Record-ID": "urn:uuid:550e8400-e29b-41d4-a716-111111111111",
+                "DPP-Record-Hash": "eb772c24846f989b9d44d2f6694ed02afb5ced91da958ce02f1d71fd42b7f400"
+            },
+            "processRun": {},
+            "DID": "did:key:z6MO9UjEd7l6m_EleSFE8n-AwuV5H7AkAw27fmGrz-nXe4",
+            "DID_Key": {
+                "kty": "OKP",
+                "crv": "Ed25519",
+                "x": "O9UjEd7l6m_EleSFE8n-AwuV5H7AkAw27fmGrz-nXe4",
+                "d": "K6jG1m3h9lXgl8W-q-u_1_i7I25HNTQySxrn_vR3pIY"
+            },
+            "Signed Credential": {
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    {
+                        "manufacturer": {
+                            "@id": "https://schema.org/manufacturer",
+                            "@type": "https://schema.org/Organization"
+                        },
+                        "@vocab": "https://example.org/vocab#",
+                        "holder": "https://schema.org/owner",
+                        "manufacturingDate": "https://schema.org/productionDate",
+                        "serialNumber": "https://schema.org/serialNumber",
+                        "addressCountry": "https://schema.org/addressCountry",
+                        "description": "https://schema.org/description",
+                        "name": "https://schema.org/name"
+                    }
+                ],
+                "id": "urn:uuid:550e8400-e29b-41d4-a716-111111111111",
+                "type": [
+                    "VerifiableCredential",
+                    "ProductCredential"
+                ],
+                "credentialSubject": {
+                    "manufacturer": {
+                        "addressCountry": "Utopia",
+                        "name": "PP2"
+                    },
+                    "holder": "did:key:z6MO9UjEd7l6m_EleSFE8n-AwuV5H7AkAw27fmGrz-nXe4",
+                    "name": "Aircraft Critical Part",
+                    "serialNumber": "SN-8KSQB0L1-469",
+                    "GreenTrustID": "TB_002",
+                    "GreenTrustProcessID": " ",
+                    "manufacturingDate": "2025-05-15T09:24:51.005505",
+                    "mass": {
+                        "unitCode": "ITEM",
+                        "value": "1"
+                    },
+                    "product_characteristics": {
+                        "1. Turbine Blade Stage No": "Hot SX Ring No 2",
+                        "2. Alloy": "Hastelloy 342",
+                        "3. Serial Number": "TB-482-34998-0098-XF-0896",
+                        "4. Engine type": "CFM56",
+                        "5. Engine serial No": "--",
+                        "6. Aircraft ID": "--",
+                        "7. Report/Certificate URL": "",
+                        "8. Report/Certificate Hash": " ",
+                        "9. Comments": " Investment casting + Heat Treatment"
+                    },
+                    "description": "TB_002 - SX Blade - Hot Ring",
+                    "traceabilityInformation": [
+                        {
+                            "traceabilityEvent": "Manufacturing",
+                            "traceabilityEventActor": "PP2",
+                            "traceabilityEventDate": "2025-05-15T09:24:51.005458"
+                        }
+                    ]
+                },
+                "issuer": "did:key:z6MkggYGMpveSvh5YoDvrsKiiRYfMJFbn3AoxtqRSn5eNErB",
+                "issuanceDate": "2024-03-14T04:00:00Z",
+                "proof": {
+                    "type": "Ed25519Signature2018",
+                    "proofPurpose": "assertionMethod",
+                    "verificationMethod": "did:key:z6MkggYGMpveSvh5YoDvrsKiiRYfMJFbn3AoxtqRSn5eNErB#z6MkggYGMpveSvh5YoDvrsKiiRYfMJFbn3AoxtqRSn5eNErB",
+                    "created": "2025-05-15T09:24:51.173779900Z",
+                    "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..62wlaz9Wf6IugFSoR4-FnR8zHJ_J0wPgeQt5paV4XOPVb5vgTps6_EXGeX9Yg3MWAG0D_XqH0kkJwmFNEhIxAw"
+                },
+                "linkedCredential": [
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/02A_EntityA-Credential-Signed.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "CompanyCredential"
+                        ]
+                    },
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/RootCA-Credential.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "RootCertificationAuthorityCredential"
+                        ]
+                    },
+                    {
+                        "id": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/CA-Credential.json",
+                        "type": [
+                            "VerifiableCredential",
+                            "CertificationAuthorityCredential"
+                        ]
+                    }
+                ],
+                "selectedEvent": "Manufacturing"
+            }
+        }
+    }
+]
