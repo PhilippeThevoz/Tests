@@ -1,0 +1,23 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:TB_002-ID not found",
+    "sha256": "7c97138650ce08abf79ad5f62b4ca45c8b109e1eda3c00bccc631566cfb2158f",
+    "referenceUrl": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/DPP/TB_002-ID not found/TB_002-Log.json",
+    "verificationMethod": {
+        "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:TB_002-ID not found#key-1",
+        "type": "Ed25519VerificationKey2020",
+        "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:TB_002-ID not found",
+        "publicKeyMultibase": "zB1XZSuPvm6pEU169R82zW6YQ3T8wLLHHwtCaQwvCx1QR"
+    },
+    "authentication": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:TB_002-ID not found#key-1",
+    "proof": {
+        "type": "Ed25519Signature2020",
+        "created": "2025-05-15T09:24:51.971887+00:00Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:TB_002-ID not found#key-1",
+        "proofValue": "rCvAKVoJcyxxeccCxz8n5z4tazzXY8u/UrxLXHyAO8IhNE6NtAjqIUMcHu1Y6beZ3DYdgKEiEQYGMwNWRrR5Dw=="
+    }
+}
