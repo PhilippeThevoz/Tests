@@ -4,20 +4,20 @@
         "https://w3id.org/security/suites/ed25519-2020/v1"
     ],
     "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:CO2_001-sbaincubatorGMEJ3QM104NQ",
-    "sha256": "c1ef4fe04b8a4562b073e8d1eec3a7c0529f3d9ccc3d9ff38371c5f100f70b15",
+    "sha256": "7d2db33e21bc9a8dabdd20f41041f3b6fd4b335a8defcd525fa5dd393a6dc9b8",
     "referenceUrl": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/DPP/CO2_001-sbaincubatorGMEJ3QM104NQ/CO2_001-Log.json",
     "verificationMethod": {
         "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:CO2_001-sbaincubatorGMEJ3QM104NQ#key-1",
         "type": "Ed25519VerificationKey2020",
         "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:CO2_001-sbaincubatorGMEJ3QM104NQ",
-        "publicKeyMultibase": "z6GJxbu9vjdFzuZMjn1PsTJfyDbnAmMM1g9KGLcSjwvnR"
+        "publicKeyMultibase": "z9qagshdMufr7VvxgPQRWShcFFw5JL1JDUXxDktjF5zCD"
     },
     "authentication": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:CO2_001-sbaincubatorGMEJ3QM104NQ#key-1",
     "proof": {
         "type": "Ed25519Signature2020",
-        "created": "2025-05-18T07:29:03.711796+00:00Z",
+        "created": "2025-05-18T07:34:30.801925+00:00Z",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:CO2_001-sbaincubatorGMEJ3QM104NQ#key-1",
-        "proofValue": "LVprhbKIcKyX9SeYABnMhryW4zLAErpJinUkS2f7Ag97fhfHkCNyAJ8tiscuNfW8mPLXWd7nuBaFnbkDHLyeCQ=="
+        "proofValue": "+sAeJv5/ltgr48uZtpZsv/FUmIHyo+/JUrEyXb213mhVycd99fML7ADKxYqaP/REgxgHhZdBM8/TBHXGMUS0CA=="
     }
 }
