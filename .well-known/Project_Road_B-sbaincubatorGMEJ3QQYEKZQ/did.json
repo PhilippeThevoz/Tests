@@ -1,0 +1,23 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:Project_Road_B-sbaincubatorGMEJ3QQYEKZQ",
+    "sha256": "7f7c59d71f1bd476bbe9f46a3b44ed583b34225256fc526ed2c2029433496812",
+    "referenceUrl": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/DPP/Project_Road_B-sbaincubatorGMEJ3QQYEKZQ/Project_Road_B-Log.json",
+    "verificationMethod": {
+        "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:Project_Road_B-sbaincubatorGMEJ3QQYEKZQ#key-1",
+        "type": "Ed25519VerificationKey2020",
+        "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:Project_Road_B-sbaincubatorGMEJ3QQYEKZQ",
+        "publicKeyMultibase": "zFrXns3y8LGBQumJVVbceW9UKxd78a194NyJ4JBxJreKb"
+    },
+    "authentication": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:Project_Road_B-sbaincubatorGMEJ3QQYEKZQ#key-1",
+    "proof": {
+        "type": "Ed25519Signature2020",
+        "created": "2025-06-18T11:55:02.971010+00:00Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:Project_Road_B-sbaincubatorGMEJ3QQYEKZQ#key-1",
+        "proofValue": "2Qrbz4pM3hXfivNsfz1sT/rPG4sNwDOqSo4AElnz3zR8QtM3W1J0xqbpnhMFlzoAhu8m5n1xhpIF7pHYi8rlAg=="
+    }
+}
