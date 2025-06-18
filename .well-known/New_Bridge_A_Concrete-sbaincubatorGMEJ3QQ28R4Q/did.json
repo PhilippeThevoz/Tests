@@ -4,20 +4,20 @@
         "https://w3id.org/security/suites/ed25519-2020/v1"
     ],
     "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:New_Bridge_A_Concrete-sbaincubatorGMEJ3QQ28R4Q",
-    "sha256": "d1a3a4648f08a4f0ff5821efaa66c805c292baca1eb56a4fde31c29281d7cfd5",
+    "sha256": "c5ff93f03ee89c63eb586fa5034761acbd4a1c84e9cd49e6dddd3feffdb32be3",
     "referenceUrl": "https://raw.githubusercontent.com/PhilippeThevoz/Tests/main/DPP/New_Bridge_A_Concrete-sbaincubatorGMEJ3QQ28R4Q/New_Bridge_A_Concrete-Log.json",
     "verificationMethod": {
         "id": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:New_Bridge_A_Concrete-sbaincubatorGMEJ3QQ28R4Q#key-1",
         "type": "Ed25519VerificationKey2020",
         "controller": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:New_Bridge_A_Concrete-sbaincubatorGMEJ3QQ28R4Q",
-        "publicKeyMultibase": "z47NninyBB96PcenmdXonifMUr9CRo84J7qsBRUPdDDLn"
+        "publicKeyMultibase": "z4ASAsMnBK2ieLfgu7A9StRySKVGCgL3bEcogZ4M14YsS"
     },
     "authentication": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:New_Bridge_A_Concrete-sbaincubatorGMEJ3QQ28R4Q#key-1",
     "proof": {
         "type": "Ed25519Signature2020",
-        "created": "2025-06-18T08:39:17.529551+00:00Z",
+        "created": "2025-06-18T08:43:28.359090+00:00Z",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:raw.githubusercontent.com:PhilippeThevoz:Tests:main:.well-known:New_Bridge_A_Concrete-sbaincubatorGMEJ3QQ28R4Q#key-1",
-        "proofValue": "BbLRQL4HR+F+XRrh7ewAu3jxot4Fk1fDiAvfaRkDZ0Zwv5DAh8LtjPiASHPE32ww3mK4v+iksUl43VppAbwIBg=="
+        "proofValue": "OL6L7zjf8esHaPeggXL/v/PLp26e3CuN1Arp7OnXHX3Vad1mXeN17XmcnBu1nHpqySoN9MLW8S7FYNlBnJpeCw=="
     }
 }
